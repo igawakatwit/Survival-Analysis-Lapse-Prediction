@@ -3,8 +3,7 @@ This repository contains the full workflow, codebase, visuals, and deliverables 
 
 The repo is organized so you can easily explore the project from initial EDA through model development, evaluation, and final reporting.
 
-📁 code
-All Python scripts used in the modeling pipeline:
+📁 Code (All Python scripts used in the modeling pipeline):
 - mainC.py — Full pipeline: EDA → preprocessing → modeling → calibration → SHAP
 - edaC.py — Exploratory data analysis functions
 - preprocessingC.py — Data cleaning and preprocessing
@@ -15,8 +14,7 @@ All Python scripts used in the modeling pipeline:
 - robustness_testC.py — Multi‑seed robustness testing
 - visualsC.py — All visualization utilities (survival curves, fan charts, SHAP, calibration)
 
-📁 visuals
-Key plots generated throughout the project, including:
+📁 Visuals (Key plots generated throughout the project):
 - KM survival curve
 - Nelson–Aalen cumulative hazard
 - Age distributions and lapse‑event comparisons
@@ -27,8 +25,14 @@ Key plots generated throughout the project, including:
 - SHAP explanations for all models
 - Schoenfeld residual diagnostics
 
-📁 report
+📁 Dataset (Contains all materials needed to understand and reproduce the modeling work):
+- Health Insurance Portfolio Sample — first 50,000 rows of the full dataset (condensed from original)
+- Variable Descriptions — definitions and explanations for every original feature included in the dataset.
+- Spanish Regional Climate Groupings — mapping of Spanish provinces into homogeneous climatological areas used for geographic feature engineering.
+- Percentile Reference Table — lookup table used for percentile‑based transformations and normalization of selected variables. 
+
+📁 Report
 Final Report (PDF) — Full write‑up of methodology, experiments, and results
 
-📁 presentation slides
+📁 Presentation slides
 Presentation (PDF) — Summary of project motivation, modeling approach, and key findings
